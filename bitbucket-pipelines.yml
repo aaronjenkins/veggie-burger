@@ -8,6 +8,8 @@ image: node:10.15.3
 pipelines:
   default:
     - step:
+        name: Deploy
+        deployment: production
         caches:
           - node
         script: 
@@ -17,5 +19,4 @@ pipelines:
             PASSWORD: $FTP_PASSWORD
             SERVER: 'ftp://aaronjenkins.me'
             REMOTE_PATH: 'public_html/reviews'
-            LOCAL_PATH: '/opt/atlassian/pipelines/agent/build/build' 
             EXTRA_ARGS: '-P 21'
