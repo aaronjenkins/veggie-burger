@@ -19,4 +19,5 @@ pipelines:
             PASSWORD: $FTP_PASSWORD
             SERVER: 'ftp://aaronjenkins.me'
             REMOTE_PATH: 'public_html/reviews'
+            LOCAL_PATH: '/docs'
             EXTRA_ARGS: '-P 21'
