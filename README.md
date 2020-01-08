@@ -6,4 +6,4 @@
              /____//____/                        /____/             
 
 my personal veggie burger website. 
-!(nojsnobugs.jpeg)
+![](nojsnobugs.jpeg)
